@@ -52,12 +52,12 @@ const Products: React.FC = () => {
     className="absolute inset-0 w-full h-full object-cover object-center opacity-0 transition-opacity duration-500 group-hover:opacity-100"
     loading="lazy"
   />
-
+{/* 
   {product.status && (
     <div className="absolute top-4 right-4 bg-stone-900 text-white text-xs px-3 py-1 uppercase tracking-widest z-10">
       {product.status}
     </div>
-  )}
+  )}*/}
 </div>
 
 
