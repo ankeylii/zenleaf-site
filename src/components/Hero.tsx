@@ -3,9 +3,11 @@ import { ASSETS } from '../constants';
 
 import { ChevronDown } from 'lucide-react';
 
+
 const Hero: React.FC = () => {
+  
   const [quote] = useState<string>(
-  "Sourced from China’s ecological tea regions — clean color, smooth umami, stable quality for cafés."
+  "For cafés & bakeries"
 );
 
 
@@ -62,3 +64,4 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+
